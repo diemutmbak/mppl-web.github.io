@@ -1,0 +1,224 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Hanuman;
+}
+
+.Desktop2 {
+  width: 1440px;
+  height: 700px;
+  position: relative;
+  background: white;
+}
+
+.Frame1 {
+  width: 1440px;
+  height: 117px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+}
+
+.HomePageHeader {
+  width: 1440px;
+  height: 119px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+}
+
+.Button {
+  position: absolute;
+  background: rgba(84.61, 106.47, 221.21, 0.5);
+  border-radius: 30px;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+}
+
+.button1 {
+  padding-top: 9px;
+  padding-bottom: 1.62px;
+  padding-left: 21px;
+  padding-right: 20.65px;
+  left: 1259.97px;
+  top: 31.23px;
+}
+
+.TShirt {
+  width: 166px;
+  height: 54px;
+  left: 47px;
+  top: 28px;
+  position: absolute;
+  color: black;
+  font-size: 40px;
+  font-family: Irish Grover;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.button2 {
+  padding-top: 9px;
+  padding-bottom: 1.62px;
+  padding-left: 21px;
+  padding-right: 20.65px;
+  left: 1259.97px;
+  top: 31.23px;
+}
+
+.button3 {
+  padding-top: 9px;
+  padding-bottom: 1.62px;
+  padding-left: 21px;
+  padding-right: 20.65px;
+  left: 1259.97px;
+  top: 31.23px;
+}
+
+.button4 {
+  width: 99.65px;
+  height: 45.62px;
+  left: 1259.97px;
+  top: 31.23px;
+}
+
+.Contact {
+  left: 1123px;
+  top: 37px;
+  position: absolute;
+  color: black;
+  font-size: 24px;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.Help {
+  left: 1021px;
+  top: 38px;
+  position: absolute;
+  color: black;
+  font-size: 24px;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.button5 {
+  padding-top: 18px;
+  padding-left: 19px;
+  padding-right: 191px;
+  left: 100px;
+  top: 100px;
+  justify-content: flex-start;
+}
+
+.NamaDepan {
+  color: black;
+  font-size: 24px;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.button6 {
+  padding-top: 18px;
+  padding-left: 19px;
+  padding-right: 155px;
+  left: 100px;
+  top: 160px;
+  justify-content: flex-start;
+}
+
+.NamaBelakang {
+  color: black;
+  font-size: 24px;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.button7 {
+  width: 358px;
+  padding-top: 18px;
+  padding-left: 19px;
+  padding-right: 262px;
+  left: 100px;
+  top: 230px;
+  justify-content: flex-start;
+}
+
+.EMail {
+  color: black;
+  font-size: 24px;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.button8 {
+  width: 358px;
+  padding-top: 18px;
+  padding-left: 19px;
+  padding-right: 227px;
+  left: 100px;
+  top: 300px;
+  justify-content: flex-start;
+}
+
+.Password {
+  color: black;
+  font-size: 24px;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.button9 {
+  width: 358px;
+  height: 53px;
+  left: 100px;
+  top: 370px;
+}
+
+.KonfirmasiPassword {
+  left: 19px;
+  top: 18px;
+  position: absolute;
+  color: black;
+  font-size: 24px;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.Rectangle5 {
+  width: 222px;
+  height: 66px;
+  left: 556px;
+  top: 500px;
+  position: absolute;
+  background: #2043ff;
+  border-radius: 40px;
+}
+
+.Frame4 {
+  padding: 10px;
+  left: 614px;
+  top: 784px;
+  position: absolute;
+}
+
+.Regist {
+  left: 614px;
+  top: 520px;
+  position: absolute;
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.Rectangle5Image {
+  width: 538px;
+  height: 343px;
+  left: 822px;
+  top: 100px;
+  position: absolute;
+}

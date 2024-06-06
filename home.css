@@ -1,0 +1,112 @@
+.container {
+  width: 1440px;
+  height: 1024px;
+  background: white;
+  position: relative;
+}
+
+.header {
+  width: 1440px;
+  height: 119px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.logo {
+  width: 166px;
+  height: 54px;
+  position: absolute;
+  left: 47px;
+  top: 28px;
+  color: black;
+  font-size: 40px;
+  font-family: Irish Grover;
+  font-weight: 400;
+}
+
+.menu {
+  position: absolute;
+  color: black;
+  font-size: 24px;
+  font-family: Hanuman;
+  font-weight: 400;
+}
+
+.contact {
+  left: 1123px;
+  top: 37px;
+}
+
+.help {
+  left: 1021px;
+  top: 38px;
+}
+
+.logout {
+  left: 1271px;
+  top: 33px;
+}
+
+.button-background {
+  width: 99.65px;
+  height: 45.62px;
+  position: absolute;
+  left: 1261px;
+  top: 28px;
+  background: rgba(84.61, 106.47, 221.21, 0.5);
+  border-radius: 30px;
+}
+
+.card {
+  width: 395px;
+  height: 416px;
+  position: absolute;
+  background: #edefe4;
+  border-radius: 24px;
+  overflow: hidden;
+  border: 2px #e1e4d9 solid;
+}
+
+.title {
+  position: absolute;
+  left: 24px;
+  color: #141e0c;
+  font-size: 16px;
+  font-family: Libre Franklin;
+  font-weight: 600;
+  line-height: 20.8px;
+  top: 326px;
+}
+
+.price {
+  position: absolute;
+  text-align: right;
+  color: #476730;
+  font-size: 20px;
+  font-family: Libre Franklin;
+  font-weight: 600;
+  line-height: 26px;
+  top: 326px;
+  left: 256px;
+}
+
+.size,
+.description {
+  position: absolute;
+  color: #74796d;
+  font-size: 16px;
+  font-family: Libre Franklin;
+  font-weight: 400;
+  line-height: 24px;
+  top: 358px;
+  left: 24px;
+}
+
+.image {
+  position: absolute;
+  top: 41px;
+  left: 33px;
+  width: 328px;
+  height: 274px;
+}
