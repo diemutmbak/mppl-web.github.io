@@ -1,0 +1,110 @@
+/* login.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    background: #f8f8f8;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    margin-right: 100px; /* Geser ke kiri */
+}
+
+.login-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form input {
+    padding: 15px; /* Ukuran padding lebih besar */
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    background: #b3b3ff;
+    color: #000;
+    font-size: 18px; /* Ukuran font lebih besar */
+}
+
+.shirt-image {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-left: 100px; /* Geser ke kanan */
+}
+
+.shirt-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.login-btn {
+    background: #0000ff;
+    color: white;
+    padding: 15px 30px; /* Ukuran padding lebih besar */
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 18px; /* Ukuran font lebih besar */
+    margin-top: 20px; /* Spasi atas */
+}
+
+@media (min-width: 768px) {
+    main {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .login-form {
+        margin-right: 50px; /* Jarak yang lebih besar pada layar lebar */
+    }
+
+    .shirt-image {
+        margin-left: 50px; /* Jarak yang lebih besar pada layar lebar */
+    }
+}

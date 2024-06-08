@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+.container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+header {
+    background: #fff;
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+header .nav-links {
+    display: flex;
+    gap: 15px;
+    margin-left: auto;
+}
+header .nav-links a {
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+}
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.cart-items {
+    flex: 1;
+    margin-right: 20px;
+}
+.cart-item {
+    background: #f0f0f0;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.cart-item img {
+    max-width: 80px;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+.cart-item .item-details {
+    flex: 1;
+}
+.cart-item .item-details h4 {
+    margin: 0;
+    font-size: 18px;
+}
+.cart-item .item-details p {
+    margin: 5px 0;
+    color: #777;
+}
+.cart-item .item-details .quantity-control {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+.cart-item .item-details .quantity-control button {
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.cart-item .item-details .quantity-control span {
+    font-size: 16px;
+}
+.order-summary {
+    background: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+}
+.order-summary h3 {
+    margin-top: 0;
+}
+.order-summary p {
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.order-summary .total {
+    font-size: 18px;
+    font-weight: bold;
+}
+.order-summary button {
+    width: 100%;
+    padding: 10px;
+    background: #4caf50;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+    .main-content {
+        flex-direction: column;
+    }
+    .cart-items {
+        margin-right: 0;
+    }
+    .order-summary {
+        width: 100%;
+        max-width: none;
+    }
+}
